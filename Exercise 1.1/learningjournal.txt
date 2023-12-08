@@ -1,0 +1,28 @@
+Exercise 1.1: Getting Started with Python 
+Reflection Questions
+
+1.	In your own words, what is the difference between frontend and backend web development? 
+    If you were hired to work on backend programming for a web application, what kinds of operations would you be working on?
+    Frontend web development involves creating the user interface and designing the visual elements of a website that users interact with directly.
+    It focuses on the presentation layer, including HTML, CSS, and JavaScript, to ensure a seamless and user-friendly experience. 
+    Backend web development, on the other hand, deals with the server-side logic and database management. 
+    It involves handling data, processing requests, and managing the server infrastructure to ensure that the frontend functions properly. 
+    If I were hired as a backend developer for a web application, my responsibilities would include designing and managing the database, developing server-side logic to handle user requests, creating and maintaining APIs for communication with the frontend, implementing security measures, collaborating with frontend developers, implementing logging and monitoring for error tracking, and planning for scalability as the application grows.
+
+2.	Imagine you’re working as a full-stack developer in the near future. 
+    Your team is asking for your advice on whether to use JavaScript or Python for a project, and you think Python would be the better choice. 
+    How would you explain the similarities and differences between the two languages to your team? 
+    Drawing from what you learned in this Exercise, what reasons would you give to convince your team that Python is the better option? 
+    (Hint: refer to the Exercise section “The Benefits of Developing with Python”)
+    JavaScript and Python are similar in that they are both high-level, versatile languages with code that is executed line by line with no separate compilation step. 
+    However, their primary use cases, syntax, and execution environments distinguish them in terms of development focus. 
+    I would convince my team that Python is an excellent choice for several reasons. 
+    Its clean and readable syntax promotes efficient coding and collaboration, reducing development time. 
+    Python's extensive standard library and rich ecosystem of third-party packages cover a wide range of functionalities, enhancing productivity. 
+    The language's strong community support ensures a wealth of resources, tutorials, and solutions. 
+    Overall, Python's combination of readability, versatility, and community support makes it a compelling choice for our development projects.
+
+3.	Now that you’ve had an introduction to Python, write down 3 goals you have for yourself and your learning during this Achievement. 
+    You can reflect on the following questions if it helps you. What do you want to learn about Python? What do you want to get out of this Achievement? Where or what do you see yourself working on after you complete this Achievement?
+    I would like to develop a deep understanding of Python's fundamental concepts, including data structures, functions, and object-oriented programming. 
+    This foundational knowledge will serve as a solid base for me to tackle more advanced topics and projects.
