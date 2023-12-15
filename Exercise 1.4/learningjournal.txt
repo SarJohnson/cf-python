@@ -1,0 +1,36 @@
+Exercise 1.4 File Handling in Python
+Reflection Questions
+
+1.	Why is file storage important when you’re using Python? 
+    What would happen if you didn’t store local files?
+    File storage is crucial in Python for preserving and managing data persistently. 
+    It allows the storage and retrieval of information, enabling the creation of databases.
+    Without file storage, data would only exist temporarily in memory, and any information gathered or processed during a session would be lost once the program terminates. 
+    Storing files locally ensures data persistence in Python.
+
+2.	In this Exercise you learned about the pickling process with the pickle.dump() method. 
+    What are pickles? In which situations would you choose to use pickles and why? 
+    Pickles in Python refer to the serialization and deserialization module, pickle, which allows the conversion of Python objects into a byte stream and vice versa. 
+    Pickles are useful when you need to save complex data structures, such as dictionaries or custom objects, to a file, preserving their state. 
+    It is commonly used in situations where you want to persistently store or transfer Python objects, providing a convenient and efficient way to serialize and deserialize Python objects.
+
+3.	In Python, what function do you use to find out which directory you’re currently in? 
+    What if you wanted to change your current working directory?
+    In Python, the os module is used to find out the current working directory and change it. 
+    The os.getcwd() function returns the current working directory as a string. 
+    If you want to change the current working directory, you can use the os.chdir(path) function, where path is the directory path you want to set as the new working directory. 
+    This is particularly useful when you need to navigate between directories in your code.
+
+4.	Imagine you’re working on a Python script and are worried there may be an error in a block of code. 
+    How would you approach the situation to prevent the entire script from terminating due to an error?
+    To prevent the entire script from terminating due to an error in a specific block of code, I can use a try-except block. 
+    I would wrap the potentially problematic code in a try block, and if an exception occurs, handle it in the except block. 
+    This way, the script will continue executing the subsequent code even if an error occurs within the protected block. 
+    Additionally, I can include specific exception types in the except clause to catch and handle only the relevant errors, allowing the script to handle unexpected situations and continue its execution.
+
+5.	You’re now more than halfway through Achievement 1! Take a moment to reflect on your learning in the course so far. 
+    How is it going? What’s something you’re proud of so far? Is there something you’re struggling with? 
+    What do you need more practice with? Feel free to use these notes to guide your next mentor call. 
+    I feel particularly proud of the fact that a lot of the concepts in Python, such as the data types, I am able to grasp.
+    I personally feel as though a lot of the information is not all that different from JavaScript so that assists with my understanding.
+    I do want to get more practice with the topics I have learned this chapter, specifically pickles and try-except blocks.
