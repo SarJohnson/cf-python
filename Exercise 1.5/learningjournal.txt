@@ -1,0 +1,20 @@
+Exercise 1.5 Object-Oriented Programming in Python
+Reflection Questions
+
+1.	In your own words, what is object-oriented programming? What are the benefits of OOP?
+    Object-oriented programming (OOP) organizes code into objects, which are instances of classes. 
+    A class defines the attributes and behaviors common to all objects of that type. Objects can interact with each other through methods.
+    OOP is beneficial because it helps keep your code non-repetitive, non-redundant, and efficient.
+
+2.	What are objects and classes in Python? Come up with a real-world example to illustrate how objects and classes work.
+    In Python, a class is a blueprint for creating objects, and an object is an instance of a class. 
+    A class defines attributes and methods that its objects will have. Objects represent concrete instances of these classes.
+    A real-world example of this is a class "Car" with attributes of "brand", "model", and "color" with methods like "start_engine" and "drive".
+    By creating objects from this class, such as "my_car" and "brothers_car," each object represents a specific car with unique characteristics. 
+    You can then interact with these objects, calling methods like "start_engine" to initiate specific behaviors.
+
+3.	In your own words, write brief explanations of the following OOP concepts; 100 to 200 words per method is fine. 
+    Method	              Description
+    Inheritance	          Instead of copying code over, Inheritance lets you inherit methods from one class (parent class or base class) to another (subclass or inherited class). 
+    Polymorphism	      Polymorphism is where a given data attribute or method has the same name across different classes or data types, but performs different operations depending on where it was defined.
+    Operator Overloading  To use operators such as + or - on a custom class, you need to define your own methods for them (_add_() or _sub_()) in Operator Overloading.
