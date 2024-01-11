@@ -1,0 +1,30 @@
+Exercise 1.6 Databases in Python
+Reflection Questions
+
+1.	What are databases and what are the advantages of using them?
+    Databases are organized collections of structured data that can be easily accessed, managed, and updated. 
+    They provide a systematic way to store, retrieve, and manipulate data, typically using a query language. 
+    Advantages of using databases include efficient data storage, quick and reliable data retrieval, data integrity through enforced relationships and constraints, concurrent access by multiple users, and scalability to handle large volumes of information.
+
+2.	List 3 data types that can be used in MySQL and describe them briefly:
+    Data type	Definition
+    INT:        Standard integers
+    VARCHAR:    String of variable length, with n representing the maximum number of characters
+    FLOAT:      Floating-point decimal numbers
+	
+3.	In what situations would SQLite be a better choice than MySQL?
+    SQLite might be a better choice than MySQL in scenarios where simplicity, lightweight implementation, and ease of setup are prioritized over scalability. 
+    SQLite is a serverless, self-contained database engine that doesn't require a separate server process, making it suitable for embedded systems, mobile applications, or small-scale projects. 
+    It excels in situations where the project demands a compact, rapid deployment, and where the need for advanced features is not a primary concern. 
+    MySQL, on the other hand, is typically preferred for larger-scale applications.
+
+4.	Think back to what you learned in the Immersion course. What do you think about the differences between JavaScript and Python as programming languages?
+    JavaScript and Python are both popular programming languages, but they have distinct characteristics. 
+    JavaScript is primarily used for front-end web development, enabling dynamic and interactive user interfaces. Python is known for its readability and versatility. 
+    Python's syntax is clear and concise, promoting code readability, while JavaScript has an asynchronous nature. 
+    Each language has its strengths, with JavaScript excelling in web-related tasks and Python being a versatile language for diverse applications. 
+
+5.	Now that you’re nearly at the end of Achievement 1, consider what you know about Python so far. What would you say are the limitations of Python as a programming language? 
+    While Python is a versatile and widely used programming language, it has some limitations. One drawback is its execution speed, as Python is an interpreted language and may be slower than compiled languages for certain tasks. 
+    While Python is suitable for many domains, its mobile and game development support may not be as robust as some other languages. 
+    Despite these limitations, Python's readability, extensive library support, and community contributions make it a powerful choice for a wide range of applications.
