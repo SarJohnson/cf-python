@@ -1,0 +1,22 @@
+Exercise 2.1 Getting Started with Django
+Reflection Questions
+
+1.	Suppose you’re a web developer in a company and need to decide if you’ll use vanilla (plain) Python for a project, or a framework like Django instead. 
+    What are the advantages and drawbacks of each?
+    Using vanilla (plain) Python for a project provides the advantage of complete flexibility and control over the project structure. 
+    It allows developers to choose libraries and components based on specific project needs. 
+    However, the drawback is that it may require more manual effort to handle common web development tasks.
+    On the other hand, using a framework like Django offers the advantage of rapid development through its built-in features, including an ORM, authentication, and an admin interface. 
+    It enforces a structured approach to development, enhancing code organization. However, the drawback lies in less flexibility compared to vanilla Python. 
+    The choice ultimately depends on the project's requirements, development speed, and the balance between control and convenience.
+
+2.	In your own words, what is the most significant advantage of Model View Template (MVT) architecture over Model View Controller (MVC) architecture?
+    The most significant advantage of the Model View Template (MVT) architecture over Model View Controller (MVC) is the template layer. 
+    In MVT, templates are responsible for handling the presentation logic, distinct from the view which focuses on processing user input and the model which manages data and business logic. 
+    This makes it easier to manage and maintain complex web applications by clearly delineating the responsibilities of each component.
+
+3.	Now that you’ve had an introduction to the Django framework, write down three goals you have for yourself and your learning process during this Achievement. 
+    You can reflect on the following questions if it helps: What do you want to learn about Django? 
+    What do you want to get out of this Achievement? Where or what do you see yourself working on after you complete this Achievement?
+    Three goals I have for myself this achievement is to master Django concepts, build a real-world Recipes, application, and optimize my app for performance and scalability.
+    After completing this Achievement, I see myself being proficient in Django development and ready to contribute to projects that leverage Django's capabilities.
