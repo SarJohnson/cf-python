@@ -1,0 +1,20 @@
+Exercise 2.2 Django Project Set Up
+Reflection Questions
+
+1.	Suppose you’re in an interview. The interviewer gives you their company’s website as an example, asking you to convert the website and its different parts into Django terms. 
+    How would you proceed? For this question, you can think about your dream company and look at their website for reference. 
+    (Hint: In the Exercise, you saw the example of the CareerFoundry website in the Project and Apps section.)
+    In this scenario, I would start by identifying the main components of the company's website, such as pages, features, and content. 
+    I would then map these components to Django terms, considering each major section of the website as a Django app, and each unique page as a Django view. 
+    Models would represent the data structure behind each section, and templates would be used for rendering HTML content. 
+    Overall, the goal would be to illustrate how Django's MVC architecture aligns with the structure and functionality of the company's website.
+
+2.	In your own words, describe the steps you would take to deploy a basic Django application locally on your system. 
+    To deploy a basic Django application locally, first, install Python and Django using pip install. 
+    Create a new Django project with django-admin startproject projectname, navigate to the project directory, and run the development server with python manage.py runserver. 
+    The application will be accessible at http://127.0.0.1:8000/.
+
+3.	Do some research about the Django admin site and write down how you’d use it during your web application development.
+    The Django admin site is a built-in feature that provides a web-based interface for managing database records and performing administrative tasks. 
+    During web application development, I'd leverage the Django admin site to easily create, read, update, and delete (CRUD) data in my database. 
+    Additionally, the Django admin site supports user authentication and authorization, ensuring secure access to administrative functionalities.
