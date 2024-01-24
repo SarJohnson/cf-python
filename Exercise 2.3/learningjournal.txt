@@ -1,0 +1,15 @@
+Exercise 2.3 Django Models
+Reflection Questions
+
+1.	Do some research on Django models. In your own words, write down how Django models work and what their benefits are.
+    Django models are a key component of the Django web framework, providing a layer for interacting with databases. 
+    They define the structure of a database table, allowing developers to create, read, update, and delete records. 
+    Models in Django are created as Python classes, with each class representing a table in the database. 
+    The benefits of Django models include code reusability. 
+    Additionally, Django models facilitate the use of the Object-Relational Mapping (ORM) approach, making it easier to work with databases using Python objects.
+
+2.	In your own words, explain why it is crucial to write test cases from the beginning of a project. 
+    You can take an example project to explain your answer.
+    Writing test cases from the beginning of a project is crucial because it helps catch issues early in the development cycle, reducing the likelihood of bugs persisting. 
+    For example, in an e-commerce website project, early test cases forfeatures like product search and checkout processes ensure that critical functionalities work as intended from the start. 
+    This proactive testing approach saves time and resources by preventing defects, ensuring code stability, and facilitating smoother project progression.
