@@ -1,0 +1,20 @@
+Exercise 2.4 Django Views and Templates
+Reflection Questions
+
+1.	Do some research on Django views. In your own words, use an example to explain how Django views work.
+    Django views handle incoming HTTP requests and determine what to do with them. 
+    They are responsible for processing data, interacting with models, and generating an appropriate HTTP response.
+    For example, when a user accesses the corresponding URL, an example_view function is called, and it returns a rendered HTML response containing the message "Hello, Django!" from an example_template.html template.
+
+2.	Imagine you’re working on a Django web development project, and you anticipate that you’ll have to reuse lots of code in various parts of the project. 
+    In this scenario, will you use Django function-based views or class-based views, and why?
+    I would use class-based views (CBVs) in Django in this scenario. Class-based views promote modularity and reusability through inheritance.
+    CBVs allow you to create base views with common functionality and then specialized views by extending these base views. 
+    This encourages a more organized and maintainable code structure, making it easier to manage and update shared functionalities across different parts of the project. 
+    Additionally, CBVs provide built-in mixins that help code reusability without sacrificing flexibility, making them a great choice for complex and scalable Django projects.
+
+3.  Read Django’s documentation on the Django template language and make some notes on its basics.
+    Django's template language is designed for creating dynamic HTML and other text-based documents. 
+    It uses curly braces {{ }} for outputting variables and {% %} tags for loops and conditionals. 
+    Template inheritance allows for the creation of reusable templates with a base template containing common elements. 
+    Overall, Django's template language provides a concise and expressive way to generate content in web apps.
