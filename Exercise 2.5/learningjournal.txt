@@ -1,0 +1,18 @@
+Exercise 2.4 Django MVT Revisited
+Reflection Questions
+
+1.	In your own words, explain Django static files and how Django handles them.
+    Django static files are the assets such as CSS, JavaScript, and images that are used to style and enhance the functionality of a web application. 
+    These files are separate from dynamic content and remain constant across requests. Django handles static files by using the "django.contrib.staticfiles" app.
+    During development, the "django.contrib.staticfiles.finders.AppDirectoriesFinder" automatically looks for static files in each app's "static" directory. 
+    In production, the collected static files can be served by a web server.
+
+2.	Look up the following two Django packages on Django’s official documentation and/or other trusted sources. Write a brief description of each.
+    Package	        Description
+    ListView        CBV that is used to display a list of objects. It renders a template with the list of objects and provides pagination support for large datasets.
+    DetailView      CBV that is designed to display the details of a single object. It retrieves an object based on a specified URL parameter and renders a template with information about that particular object.
+
+3.	You’re now more than halfway through Achievement 2! Take a moment to reflect on your learning in the course so far. How is it going? 
+    What’s something you’re proud of so far? Is there something you’re struggling with? What do you need more practice with? 
+    I am happy with my progress in this course so far. I am particularly proud of understanding many of Django's capabilities such as models and views. 
+    However, I do think I need to continue to practice with Django models, views, and templates to fully feel comfortable with everything.
