@@ -1,0 +1,22 @@
+Exercise 2.6 User Authentication in Django
+Reflection Questions
+
+1.	In your own words, write down the importance of incorporating authentication into an application. 
+    You can take an example application to explain your answer. 
+    Incorporating authentication into an application is crucial for ensuring the security and integrity of user data. 
+    Authentication protects against unauthorized access, protects sensitive information and maintains user privacy. 
+    It also establishes trust by verifying the identity of users, enhancing reliability of the app and mdecreasing the risk of unauthorized actions or breaches. 
+    Finally, authentication is essential for implementing personalized user experiences and enabling secure interactions within the application.
+
+2.	In your own words, explain the steps you should take to create a login for your Django web application.
+    First I would implement login_view by using Django's authentication form library in the views.py file. 
+    Next I would create the login.html template and register the url to the project in the urls.py file.
+    Then I would do the same thing with logout_view (create view, create template, register url).
+    Then I would link the login functionality in the home.html file and the logout functionality in the main.html file.
+    Finally I would protect the ListView and DetailView so that users can only see these views after successful authentication.
+
+3.	Look up the following three Django functions on Django’s official documentation and/or other trusted sources and write a brief description of each.
+    Function	        Description
+    authenticate()      This is used to verify a set of user credentials against the authentication backends defined in the project, returning a user object if the credentials are valid, or None otherwise.
+    redirect()	        This is used to send an HTTP redirect response to a specified URL, either as a string or using the reverse() function with a named URL pattern.
+    include()	        This is used to reference and include another set of URL patterns from a specified module, aiding in the organization of the application's URL configuration.

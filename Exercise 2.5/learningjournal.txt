@@ -1,4 +1,4 @@
-Exercise 2.4 Django MVT Revisited
+Exercise 2.5 Django MVT Revisited
 Reflection Questions
 
 1.	In your own words, explain Django static files and how Django handles them.
