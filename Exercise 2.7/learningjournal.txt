@@ -1,0 +1,24 @@
+Exercise 2.7 Data Analysis and Visualization in Django
+Reflection Questions
+
+1.	Consider your favorite website/application (you can also take CareerFoundry). 
+    Think about the various data that your favorite website/application collects. 
+    Write down how analyzing the collected data could help the website/application. 
+    Considering a website like CareerFoundry, analyzing the collected data, such as user engagement metrics, course completion rates, and learner feedback, could provide valuable insights. 
+    By understanding which courses or features are most popular and where users might encounter challenges, CareerFoundry can optimize its user experience, tailor content to meet specific needs, and enhance course effectiveness. 
+    Additionally, analyzing user behavior could inform targeted marketing strategies, allowing CareerFoundry to attract and retain a more engaged and satisfied user base.
+
+2.	Read the Django official documentation on QuerySet API. 
+    Note down the different ways in which you can evaluate a QuerySet.
+    Common methods of QuerySet evaluation are iteration, slicing, converting to a list, and boolean context.
+    You can iterate over a QuerySet using a loop, and it will fetch and evaluate each item from the database.
+    You can slice a QuerySet, which performs a slice operation on the SQL query, and limits the results returned.
+    You can force the evaluation of the entire QuerySet, fetching all results from the database and converting them into a list.
+    You can also check the truthiness of a QuerySet in a boolean context.
+
+3.	In the Exercise, you converted your QuerySet to DataFrame. 
+    Now do some research on the advantages and disadvantages of QuerySet and DataFrame, and explain the ways in which DataFrame is better for data processing.
+    DataFrames offer several advantages for data processing over QuerySets. 
+    Firstly, DataFrames provide a more extensive range of functions and operations, making them well-suited for tasks such as data cleaning, transformation, and exploration. 
+    Additionally, Pandas supports integration with various data sources beyond databases, handling diverse data formats. 
+    The syntax of Pandas enables more straightforward and efficient manipulation of data compared to the more specialized nature of Django QuerySets.
