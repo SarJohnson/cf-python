@@ -1,0 +1,23 @@
+Exercise 2.8 Deploying a Django Application
+Reflection Questions
+
+1.	Explain how you can use CSS and JavaScript in your Django web application.
+    In a Django web application, you can use CSS to style your HTML templates by including style sheets in the {% static %} template tag. 
+    This allows you to define visual elements, layouts, and responsiveness. 
+    For JavaScript functionality, you can include scripts in your HTML templates and manage dynamic behavior, form validation, or requests. 
+    Django also provides tools like {% load static %} and the static template tag to manage static files, ensuring that your CSS and JavaScript files are served in production.
+
+2.	In your own words, explain the steps you’d need to take to deploy your Django web application. 
+    In order to deploy a Django web application you would have to follow these steps. 
+    First you would need to prepare for development by updating the settings.py file, setting Debug to False, and adding your host to allowed_hosts.
+    Next you would collect static files with python manage.py collectstatic.
+    Then you would configure your Heroku (or other host of choice) and database. 
+    You would also have to install Gunicorn and protect your secret key.
+
+3.	(Optional) Connect with a few Django web developers through LinkedIn or any other network. Ask them for their tips on creating a portfolio to showcase Python programming and Django skills. Think about which tips could help you improve your portfolio.
+
+4.	You’ve now finished Achievement 2 and, with it, the whole course! Take a moment to reflect on your learning:
+a.	What went well during this Achievement? I felt as though my understanding and implementation of models and views went particularly well this achievement.
+b.	What’s something you’re proud of? I am proud of the fact I was able to complete a Django web application due to the fact that it was a framework I have not worked with before.
+c.	What was the most challenging aspect of this Achievement? The most challenging aspect of this assignment was working with the static images.
+d.	Did this Achievement meet your expectations? Did it give you the confidence to start working with your new Django skills? I have gained a lot of confidence in my Django skills and I am excited to tackle more projects.
